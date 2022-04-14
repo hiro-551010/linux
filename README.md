@@ -6,4 +6,4 @@
 - mv
 - rm
 - wild card
-
+- vi
