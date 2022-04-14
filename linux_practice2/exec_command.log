@@ -1,0 +1,151 @@
+ls -a -l
+ls /
+ls /usr
+pwd
+cd /root
+pwd
+cd usr
+cd /usr
+ls
+cd /home
+mkdir test1
+ls
+mkdir test2/test3
+mkdir -p test2/test3
+ls test2
+touch test1/index.php
+ls test1
+cd /home/test1 && ls
+cp index.php copy.php
+ls
+cd /home
+cp -r test1 test4
+ls
+ls test4
+mv test2/test3 test3
+ls
+ls test3
+mv test4 test1_copy
+ls
+ls test1
+rm test1/copy.php
+ls test1
+rm -r test3
+ls
+rm test1_copy.*.php
+ls test1_copy
+ls
+ls test1_copy
+rm test1_copy/*.php
+ls test1
+ls test1_copy
+ls test2
+cat README.md
+cd ../
+ls
+cd home
+ls
+cd ..
+ls
+cd /home
+echo '# Hello World' > README.md
+cat README.md
+echo ' # Server Lesson' > README.md
+cat README.md
+echo 'Linux Practice' >> README.md
+echo '-----------------' >> README.md
+cat README.md
+vi README.md
+cd /home
+vi README.md
+vi README.md
+vi README.md
+vi README.md
+cd /root
+mkdir server_lesson %% yum -y install git
+mkdir server_lesson && cd server_lesson
+yum update -y && yum -y install git
+git version
+git init
+touch first.txt
+git add .
+git commit -m 'firstcommit'
+git config --global user.email "hiro551010@gmail.com"
+git config --global user.name "hiro-551010"
+git commit -m 'firstcommit'
+git branch -M main
+git remote add origin https://github.com/hiro-551010/linux.git
+git push -u origin main
+git push -u origin main
+git push -u origin main
+git remote remove
+git remote
+git remote add origin https://github.com/hiro-551010/linux.git
+git remote -v
+git remote rm origin
+git remote -v
+git remote add origin https://github.com/hiro-551010/linux.git
+git push -u origin main
+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
+git push -u origin main
+mkdir linux_practice1/public/index
+mkdir -p linux_practice1/public/index
+git add .
+git commit -m '1-1'
+git push -u origin main
+ls
+git add linux_practice1
+git status
+cd linux_practice1/public
+cp index.php index_bk.php
+ls
+rm index
+rm -r index
+ls
+touch index.php
+ls
+cp index.php index_bk.php
+ls
+cd /root
+ls
+cd server_lesson
+ls
+cd linux_practice1
+cp -r public ../tmp
+cd ../
+ls
+rm -r tmp
+cd linux_practice1
+cp public tmp
+ls
+cp -r public tmp
+ls
+rm tmp/index_bk.php
+ls tmp
+cd ../
+mkdir README.md
+vi README.md
+vi README.md
+rm -r README.md
+cat README.md
+touch README.md
+vi README.md
+git add .
+git commit -m '練習問題1'
+git push -u origin main
+mkdir -p  linux_practice2/documents
+vi README.md
+cd linux_practice2/documents
+ls
+touch gizumo{01..50}.md
+ls
+cd ../
+mkdir trash
+mv -f documents/gizumo{20..40}.md trash
+cd trash
+ls
+cd ../
+touch .gitignore
+vi .gitignore
+history 300 -w exec_command.log
+history -w exec_command.log 300
