@@ -1,6 +1,9 @@
 - cd
+- ls
 - mkdir
 - touch
-- cp -r
+- cp
+- mv
 - rm
+- wild card
 
